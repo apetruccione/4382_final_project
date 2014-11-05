@@ -1,0 +1,21 @@
+{
+  "name": "NMA-Part-5-AngularJS",
+  "description": "A package containing all of the code for Part V of the NMA book",
+  "author": "Dr. Jeffry Babb <jbabb@wtamu.edu>",
+  "version": "1.0.0",
+  "dependencies": {
+    "mongodb": "latest",
+    "mongoose": "latest",
+    "express": "latest",
+    "jade": "latest",
+    "ejs": "latest",
+    "basic-auth-connect": "latest",
+    "body-parser": "latest",
+    "connect-mongo": "latest",
+    "cookie-parser": "latest",
+    "cookie-session": "latest",
+    "express-session": "latest",
+    "serve-static": "latest"
+  },
+  "engine": "node >= 0.10.30"
+}
