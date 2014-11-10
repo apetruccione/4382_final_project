@@ -1,7 +1,7 @@
 {
   "name": "NMA-Part-5-AngularJS",
-  "description": "A package containing all of the code for Part V of the NMA book",
-  "author": "Dr. Jeffry Babb <jbabb@wtamu.edu>",
+  "description": "The final projct for group Team Mildly Confused with a side of fries.",
+  "author": "Anthony Petruccione Alejandro Magallanes Brett Dunlap",
   "version": "1.0.0",
   "dependencies": {
     "mongodb": "latest",
@@ -15,7 +15,8 @@
     "cookie-parser": "latest",
     "cookie-session": "latest",
     "express-session": "latest",
-    "serve-static": "latest"
+    "serve-static": "latest",
+    "connect-mongo": "latest"
   },
   "engine": "node >= 0.10.30"
 }
