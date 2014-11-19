@@ -1,7 +1,7 @@
 var crypto = require('crypto');
 var express = require('express');
 module.exports = function(app) {
-  var users = require('./controllers/students_controller');
+  var users = require('./controllers/users_controller');
   app.use('/static', express.static( './static')).
       use('/lib', express.static( '../lib')
   );
@@ -45,3 +45,4 @@ module.exports = function(app) {
   app.post('/login', users.login);
   app.get('/user/profile', users.getUserProfile);
 }
+//testing commit 
